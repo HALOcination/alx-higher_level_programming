@@ -7,6 +7,6 @@ if __name__ == '__main__':
         argc, 's' * (argc != 1),
         ':' if argc > 0 else '.'
         ))
-    for arg in sys.argv[n:]:
+    for arg in sys.argv[num:]:
         print('{}: {}'.format(num, arg))
         num += 1
