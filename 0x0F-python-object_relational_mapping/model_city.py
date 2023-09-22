@@ -7,6 +7,11 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 class City(Base):
+	"""
+    Class city ihenrits from Base
+    Args:
+        Base: class parent
+    """
 
     __tablename__ = 'cities'
     id = Column(Integer, unique=True, nullable=False, primary_key=True)
